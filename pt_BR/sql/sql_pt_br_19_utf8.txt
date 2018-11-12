@@ -115,8 +115,8 @@ UPDATE `eav_attribute` SET `frontend_label`='Título do Link' WHERE `frontend_la
 UPDATE `eav_attribute` SET `frontend_label`='Fabricante' WHERE `frontend_label`='Manufacturer';    
 UPDATE `eav_attribute` SET `frontend_label`='Preço de Venda Sugerido pelo Fabricante' WHERE `frontend_label`='Manufacturer\'s Suggested Retail Price';             
 UPDATE `eav_attribute` SET `frontend_label`='Galeria de Mídia' WHERE `frontend_label`='Media Gallery';    
-UPDATE `eav_attribute` SET `frontend_label`='Descrição da Página' WHERE `frontend_label`='Meta Description';    
-UPDATE `eav_attribute` SET `frontend_label`='Palavras-Chave' WHERE `frontend_label`='Meta Keywords';    
+UPDATE `eav_attribute` SET `frontend_label`='Meta Descrição' WHERE `frontend_label`='Meta Description';    
+UPDATE `eav_attribute` SET `frontend_label`='Meta Palavras-Chave' WHERE `frontend_label`='Meta Keywords';    
 UPDATE `eav_attribute` SET `frontend_label`='Título da Página' WHERE `frontend_label`='Meta Title';    
 UPDATE `eav_attribute` SET `frontend_label`='Assinatura' WHERE `frontend_label`='Middle Name/Initial';    
 UPDATE `eav_attribute` SET `frontend_label`='Preço Mínimo' WHERE `frontend_label`='Minimal Price';    
@@ -169,7 +169,7 @@ UPDATE `eav_attribute_option_value` SET `value`='Feminino' WHERE `value`='Female
 
 /* eav_form_fieldset_label */
 UPDATE `eav_form_fieldset_label` SET `label`='Informações Pessoais' WHERE `label`='Personal Information';
-UPDATE `eav_form_fieldset_label` SET `label`='Informações de Endereços' WHERE `label`='Address Information';
+UPDATE `eav_form_fieldset_label` SET `label`='Endereços' WHERE `label`='Address Information';
 
 /* poll */
 UPDATE `poll` SET `poll_title`='Qual sua cor favorita' WHERE `poll_title`='What is your favorite color';
